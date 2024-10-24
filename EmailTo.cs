@@ -15,7 +15,7 @@ namespace QLKS_v1.Handle
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("buiminhthucvv2002@gmail.com", "rhum rqpf hvvm pbca"),
+                Credentials = new NetworkCredential("Email người gửi", "Key"),
                 EnableSsl = true
             };
             try
